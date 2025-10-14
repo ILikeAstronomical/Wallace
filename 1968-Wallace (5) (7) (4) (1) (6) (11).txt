@@ -100,7 +100,7 @@ campaignTrail_temp.questions_json = [
         "pk": 8788,
         "fields": {
             "priority": 0,
-            "description": "An unfortunate fact of the matter is that we don't have the funds to run a campaign. We only have enough for our campaign offices and that private jet of yours, and most of the latter is paid by you. The small donors ain't enough - most can only contribute $20, and that's the upper-limit of the donations we've gotten in the mail. We have to go larger: widen the cash flow.",
+            "description": "<div style=\"font-family:Garamond\">An unfortunate fact of the matter is that we don't have the funds to run a campaign. We only have enough for our campaign offices and that private jet of yours, and most of the latter is paid by you. The small donors ain't enough - most can only contribute $20, and that's the upper-limit of the donations we've gotten in the mail. We have to go larger: widen the cash flow.",
             "likelihood": 1
         }
     },
@@ -109,7 +109,7 @@ campaignTrail_temp.questions_json = [
         "pk": 8782,
         "fields": {
             "priority": 0,
-            "description": "Gov- Sorry. Mr. Wallace, we need to sort something out. The far-right has an intimate interest in your campaign, with Willis Carto in particular offering to spread word of your campaign all over the nation free-of-charge. We need to be careful in our relation to the kooks, though; if we get up on a stage with someone in a Klan garb, we're only going to win the votes of his fellow Klansmen. ",
+            "description": "<div style=\"font-family:Garamond\">Gov- Sorry. Mr. Wallace, we need to sort something out. The far-right has an intimate interest in your campaign, with Willis Carto in particular offering to spread word of your campaign all over the nation free-of-charge. We need to be careful in our relation to the kooks, though; if we get up on a stage with someone in a Klan garb, we're only going to win the votes of his fellow Klansmen. ",
             "likelihood": 1
         }
     },
@@ -118,7 +118,7 @@ campaignTrail_temp.questions_json = [
         "pk": 8796,
         "fields": {
             "priority": 0,
-            "description": "Newspapers all over the nation scramble to analyze the chaos. Newark and Detroit both lit ablaze within a week of each other in yet another example of negro-rioting. Tens-of-millions in damages, dozens of lives lost, and fires that roared for days on end. The Johnson Administration, for its part in this chaos, has failed to fully crackdown on these anarchists, leaving the states to fend for themselves. Now, what you got to say about this, Wallace?",
+            "description": "<div style=\"font-family:Garamond\">Newspapers all over the nation scramble to analyze the chaos. Newark and Detroit both lit ablaze within a week of each other in yet another example of negro-rioting. Tens-of-millions in damages, dozens of lives lost, and fires that roared for days on end. The Johnson Administration, for its part in this chaos, has failed to fully crackdown on these anarchists, leaving the states to fend for themselves. Now, what you got to say about this, Wallace?",
             "likelihood": 1
         }
     },
@@ -127,7 +127,7 @@ campaignTrail_temp.questions_json = [
         "pk": 8798,
         "fields": {
             "priority": 0,
-            "description": "Due to this campaign's third-party nature, it's rather difficult for us to get on the ballot in many states. Ohio forced us to get thousands of signatures, and even then, an army of lawyers had to stop them from throwing those out. We really can't afford a kerfuffle like that again, especially as we focus on California. We need 60-thousand people to join the American Independent Party come 1968; how much effort do we put into it?",
+            "description": "<div style=\"font-family:Garamond\">Due to this campaign's third-party nature, it's rather difficult for us to get on the ballot in many states. Ohio forced us to get thousands of signatures, and even then, an army of lawyers had to stop them from throwing those out. We really can't afford a kerfuffle like that again, especially as we focus on California. We need 60-thousand people to join the American Independent Party come 1968; how much effort do we put into it?",
             "likelihood": 1
         }
     }
@@ -251,7 +251,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8817,
         "fields": {
             "question": 8796,
-            "description": "You know, I do have to ask: why isn't the Johnson administration doing anything about these riots? I swear, I warned of this type of stuff back in '64, but he said I was insane.  Yet, the only insane man here is the one not doing anything to protect America."
+            "description": "You know, I do have to ask: why isn't the Johnson administration doing anything about these riots? I swear, I warned of this type of stuff back in '64, but he said I was insane. Yet, the only insane man here is the one not doing anything to protect America."
         }
     }
 ]
@@ -1112,7 +1112,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 100,
             "issue": 13,
             "state_issue_score": -0.67,
-            "weight": 1.2
+            "weight": 1.1
         }
     },
     {
@@ -3530,7 +3530,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 24,
             "state": 100,
-            "state_multiplier": 0.2042
+            "state_multiplier": 0.5042
         }
     },
     {
@@ -4079,7 +4079,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 8790,
             "candidate": 25,
             "affected_candidate": 25,
-            "global_multiplier": -0.0035
+            "global_multiplier": -0.0135
         }
     },
     {
@@ -4089,7 +4089,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 8791,
             "candidate": 25,
             "affected_candidate": 25,
-            "global_multiplier": -0.0015
+            "global_multiplier": -0.0115
         }
     },
     {
@@ -4647,6 +4647,292 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 23,
             "state_multiplier": 0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8894,
+        "fields": {
+            "answer": 8800,
+            "state": 101,
+            "candidate": 24,
+            "affected_candidate": 25,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8895,
+        "fields": {
+            "answer": 8794,
+            "state": 100,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8896,
+        "fields": {
+            "answer": 8794,
+            "state": 105,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8897,
+        "fields": {
+            "answer": 8794,
+            "state": 113,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8898,
+        "fields": {
+            "answer": 8794,
+            "state": 121,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8899,
+        "fields": {
+            "answer": 8794,
+            "state": 129,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8900,
+        "fields": {
+            "answer": 8794,
+            "state": 136,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8901,
+        "fields": {
+            "answer": 8794,
+            "state": 138,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8902,
+        "fields": {
+            "answer": 8795,
+            "state": 97,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8903,
+        "fields": {
+            "answer": 8795,
+            "state": 101,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8904,
+        "fields": {
+            "answer": 8795,
+            "state": 108,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8905,
+        "fields": {
+            "answer": 8795,
+            "state": 111,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8906,
+        "fields": {
+            "answer": 8795,
+            "state": 114,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8907,
+        "fields": {
+            "answer": 8795,
+            "state": 120,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8908,
+        "fields": {
+            "answer": 8795,
+            "state": 122,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8909,
+        "fields": {
+            "answer": 8795,
+            "state": 124,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8910,
+        "fields": {
+            "answer": 8795,
+            "state": 147,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8911,
+        "fields": {
+            "answer": 8793,
+            "state": 139,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8912,
+        "fields": {
+            "answer": 8789,
+            "state": 100,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8913,
+        "fields": {
+            "answer": 8789,
+            "state": 105,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8914,
+        "fields": {
+            "answer": 8789,
+            "state": 110,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8915,
+        "fields": {
+            "answer": 8789,
+            "state": 113,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8916,
+        "fields": {
+            "answer": 8789,
+            "state": 121,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8917,
+        "fields": {
+            "answer": 8789,
+            "state": 129,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8918,
+        "fields": {
+            "answer": 8789,
+            "state": 136,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8919,
+        "fields": {
+            "answer": 8789,
+            "state": 142,
+            "candidate": 25,
+            "affected_candidate": 25,
+            "state_multiplier": 0.045
+        }
     }
 ]
 
@@ -4746,7 +5032,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 8814,
         "fields": {
             "answer": 8800,
-            "candidate": 23,
+            "candidate": 25,
             "answer_feedback": "This doesn't just dent the war chest. It blows a hole through it! We lose thousands of dollars over the course of a few days, and you tire yourself out with all the speeches in the sun. Not a great showing considering the cost."
         }
     },
